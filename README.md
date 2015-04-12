@@ -1,6 +1,6 @@
 # telehash-packet
 
-A Clojure library designed to ... well, that part is up to you.
+A Clojure implementation of the Telehash Packet / LOB encoding protocol.
 
 ## Usage
 
@@ -8,7 +8,7 @@ FIXME
 
 ## License
 
-Copyright © 2015 FIXME
+Copyright © 2015 Paul Dumais
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
