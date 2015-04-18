@@ -1,4 +1,4 @@
-* hashname
+* Telehash-Packet
 
 A Clojure library that implements the telehash packet protocol.
 
