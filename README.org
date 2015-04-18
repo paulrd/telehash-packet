@@ -1,0 +1,24 @@
+* hashname
+
+A Clojure library that implements the telehash packet protocol.
+
+* Usage
+- Put the following into your project file:
+[telehash-packet "0.1.0"]
+- Put this in your namespace imports:
+#+begin_src clojure
+(:require [telehash-packet.core :as pk])
+#+end_src
+- example:
+#+begin_src clojure
+(pk/encode {:type "animals" :sub-type "beavers"}
+           (to-byte-buffer 0x3adf6))
+              
+#+end_src
+
+* License
+
+Copyright © 2015 Paul Dumais
+
+Distributed under the Eclipse Public License either version 1.0 or (at
+your option) any later version.
