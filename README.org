@@ -4,7 +4,7 @@ A Clojure library that implements the telehash packet protocol.
 
 * Usage
 - Put the following into your project file:
-[telehash-packet "0.1.0"]
+[telehash-packet "0.1.1"]
 - Put this in your namespace imports:
 #+begin_src clojure
 (:require [telehash-packet.core :as pk])
