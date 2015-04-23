@@ -1,6 +1,5 @@
 (ns telehash-packet.core
   (:require [clojure.data.json :as json]
-            [octet.core :as oc]
             [gloss.core :as gc]
             [gloss.io :as gio]))
 
