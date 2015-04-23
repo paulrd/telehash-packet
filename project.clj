@@ -1,4 +1,4 @@
-(defproject telehash-packet "0.1.0"
+(defproject telehash-packet "0.1.1"
   :description "A Clojure implementation of the Telehash Packet / LOB encoding protocol"
   :url "http://telehash.org"
   :license {:name "Eclipse Public License"
